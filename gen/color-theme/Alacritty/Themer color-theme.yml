@@ -1,0 +1,40 @@
+# Themer color-theme
+
+schemes:
+  themer-color-theme-dark: &dark
+    primary:
+      background: "#313238"
+      foreground: "#D3D2D3"
+    cursor:
+      text: "#313238"
+      cursor: "#B772D0"
+    selection:
+      text: "#313238"
+      background: "#5891BC"
+    normal:
+      black: "#67676C"
+      red: "#D3290F"
+      green: "#52D053"
+      yellow: "#FFD24A"
+      blue: "#5891BC"
+      magenta: "#D30F43"
+      cyan: "#21A2B0"
+      white: "#D3D2D3"
+    bright:
+      black: "#828286"
+      red: "#D8503B"
+      green: "#71D672"
+      yellow: "#FCD76B"
+      blue: "#76A3C6"
+      magenta: "#D83B65"
+      cyan: "#4AB1BC"
+      white: "#EEEDED"
+    dim:
+      black: "#4C4D52"
+      red: "#B32B17"
+      green: "#4BB04E"
+      yellow: "#D6B246"
+      blue: "#507EA2"
+      magenta: "#B31641"
+      cyan: "#248C98"
+      white: "#B8B8B9"

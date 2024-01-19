@@ -1,0 +1,402 @@
+
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="2880"
+            height="1800"
+            viewBox="-1440 -900 2880 1800"
+          >
+            <defs>
+              <pattern
+                id="bg"
+                width="36"
+                height="36"
+                patternUnits="userSpaceOnUse"
+                patternTransform="rotate(22.5)"
+              >
+                <path
+                  d="M 6 0
+l 4 4
+l 16 0
+l 4 -4
+l 6 6
+l -4 4
+l 0 16
+l 4 4
+l -6 6
+l -4 -4
+l -16 0
+l -4 4
+l -6 -6
+l 4 -4
+l 0 -16
+l -4 -4
+z"
+                  stroke="#4C4D52"
+                  stroke-width="1"
+                  fill="none"
+                />
+              </pattern>
+              <pattern
+                id="bg-large"
+                width="360"
+                height="360"
+                patternUnits="userSpaceOnUse"
+                patternTransform="rotate(-22.5)"
+              >
+                <path
+                  d="M 60 0
+l 40 40
+l 160 0
+l 40 -40
+l 60 60
+l -40 40
+l 0 160
+l 40 40
+l -60 60
+l -40 -40
+l -160 0
+l -40 40
+l -60 -60
+l 40 -40
+l 0 -160
+l -40 -40
+z"
+                  stroke="#67676C"
+                  stroke-width="2"
+                  fill="none"
+                />
+              </pattern>
+              <radialGradient id="accent-bg">
+                <stop
+                  offset="25%"
+                  stop-color="#313238"
+                />
+                <stop
+                  offset="100%"
+                  stop-color="#313238"
+                  stop-opacity="0"
+                />
+              </radialGradient>
+              
+                    <linearGradient
+                      id="fill-0"
+                      x1="0"
+                      y1="0"
+                      x2="1"
+                      y2="1"
+                    >
+                      <stop
+                        offset="25%"
+                        stop-color="#D3290F"
+                        stop-opacity="0"
+                      />
+                      <stop
+                        offset="90%"
+                        stop-color="#D3290F"
+                      />
+                    </linearGradient>
+                  
+
+                    <linearGradient
+                      id="fill-1"
+                      x1="0"
+                      y1="0"
+                      x2="1"
+                      y2="1"
+                    >
+                      <stop
+                        offset="25%"
+                        stop-color="#E6770B"
+                        stop-opacity="0"
+                      />
+                      <stop
+                        offset="90%"
+                        stop-color="#E6770B"
+                      />
+                    </linearGradient>
+                  
+
+                    <linearGradient
+                      id="fill-2"
+                      x1="0"
+                      y1="0"
+                      x2="1"
+                      y2="1"
+                    >
+                      <stop
+                        offset="25%"
+                        stop-color="#FFD24A"
+                        stop-opacity="0"
+                      />
+                      <stop
+                        offset="90%"
+                        stop-color="#FFD24A"
+                      />
+                    </linearGradient>
+                  
+
+                    <linearGradient
+                      id="fill-3"
+                      x1="0"
+                      y1="0"
+                      x2="1"
+                      y2="1"
+                    >
+                      <stop
+                        offset="25%"
+                        stop-color="#52D053"
+                        stop-opacity="0"
+                      />
+                      <stop
+                        offset="90%"
+                        stop-color="#52D053"
+                      />
+                    </linearGradient>
+                  
+
+                    <linearGradient
+                      id="fill-4"
+                      x1="0"
+                      y1="0"
+                      x2="1"
+                      y2="1"
+                    >
+                      <stop
+                        offset="25%"
+                        stop-color="#21A2B0"
+                        stop-opacity="0"
+                      />
+                      <stop
+                        offset="90%"
+                        stop-color="#21A2B0"
+                      />
+                    </linearGradient>
+                  
+
+                    <linearGradient
+                      id="fill-5"
+                      x1="0"
+                      y1="0"
+                      x2="1"
+                      y2="1"
+                    >
+                      <stop
+                        offset="25%"
+                        stop-color="#5891BC"
+                        stop-opacity="0"
+                      />
+                      <stop
+                        offset="90%"
+                        stop-color="#5891BC"
+                      />
+                    </linearGradient>
+                  
+
+                    <linearGradient
+                      id="fill-6"
+                      x1="0"
+                      y1="0"
+                      x2="1"
+                      y2="1"
+                    >
+                      <stop
+                        offset="25%"
+                        stop-color="#B772D0"
+                        stop-opacity="0"
+                      />
+                      <stop
+                        offset="90%"
+                        stop-color="#B772D0"
+                      />
+                    </linearGradient>
+                  
+
+                    <linearGradient
+                      id="fill-7"
+                      x1="0"
+                      y1="0"
+                      x2="1"
+                      y2="1"
+                    >
+                      <stop
+                        offset="25%"
+                        stop-color="#D30F43"
+                        stop-opacity="0"
+                      />
+                      <stop
+                        offset="90%"
+                        stop-color="#D30F43"
+                      />
+                    </linearGradient>
+                  
+            </defs>
+            <rect
+              x="-1440"
+              y="-900"
+              width="2880"
+              height="1800"
+              fill="#313238"
+            />
+            <rect
+              x="-1440"
+              y="-900"
+              width="2880"
+              height="1800"
+              fill="url(#bg)"
+            />
+            <rect
+              x="-1440" y="-900"
+              width="2880"
+              height="1800"
+              fill="url(#bg-large)"
+            />
+            <circle
+              r="1200"
+              fill="url(#accent-bg)"
+            />
+            
+                  <path
+                    d="M
+                      0
+                      -300
+                      L
+                      212.13
+                      -212.13
+                      L
+                      212.13
+                      212.13
+                      Z"
+                    stroke="#D3290F"
+                    stroke-width="0"
+                    fill="url(#fill-0)"
+                    transform="rotate(0)"
+                  />
+                
+
+                  <path
+                    d="M
+                      0
+                      -300
+                      L
+                      212.13
+                      -212.13
+                      L
+                      212.13
+                      212.13
+                      Z"
+                    stroke="#E6770B"
+                    stroke-width="0"
+                    fill="url(#fill-1)"
+                    transform="rotate(-45)"
+                  />
+                
+
+                  <path
+                    d="M
+                      0
+                      -300
+                      L
+                      212.13
+                      -212.13
+                      L
+                      212.13
+                      212.13
+                      Z"
+                    stroke="#FFD24A"
+                    stroke-width="0"
+                    fill="url(#fill-2)"
+                    transform="rotate(-90)"
+                  />
+                
+
+                  <path
+                    d="M
+                      0
+                      -300
+                      L
+                      212.13
+                      -212.13
+                      L
+                      212.13
+                      212.13
+                      Z"
+                    stroke="#52D053"
+                    stroke-width="0"
+                    fill="url(#fill-3)"
+                    transform="rotate(-135)"
+                  />
+                
+
+                  <path
+                    d="M
+                      0
+                      -300
+                      L
+                      212.13
+                      -212.13
+                      L
+                      212.13
+                      212.13
+                      Z"
+                    stroke="#21A2B0"
+                    stroke-width="0"
+                    fill="url(#fill-4)"
+                    transform="rotate(-180)"
+                  />
+                
+
+                  <path
+                    d="M
+                      0
+                      -300
+                      L
+                      212.13
+                      -212.13
+                      L
+                      212.13
+                      212.13
+                      Z"
+                    stroke="#5891BC"
+                    stroke-width="0"
+                    fill="url(#fill-5)"
+                    transform="rotate(-225)"
+                  />
+                
+
+                  <path
+                    d="M
+                      0
+                      -300
+                      L
+                      212.13
+                      -212.13
+                      L
+                      212.13
+                      212.13
+                      Z"
+                    stroke="#B772D0"
+                    stroke-width="0"
+                    fill="url(#fill-6)"
+                    transform="rotate(-270)"
+                  />
+                
+
+                  <path
+                    d="M
+                      0
+                      -300
+                      L
+                      212.13
+                      -212.13
+                      L
+                      212.13
+                      212.13
+                      Z"
+                    stroke="#D30F43"
+                    stroke-width="0"
+                    fill="url(#fill-7)"
+                    transform="rotate(-315)"
+                  />
+                
+          </svg>
+        

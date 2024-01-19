@@ -1,0 +1,23 @@
+{
+  "name": "Themer color-theme Dark",
+  "background": "#313238",
+  "foreground": "#D3D2D3",
+  "cursorColor": "#B772D0",
+  "selectionBackground": "#5891BC",
+  "black": "#67676C",
+  "brightBlack": "#828286",
+  "red": "#D3290F",
+  "brightRed": "#D8503B",
+  "green": "#52D053",
+  "brightGreen": "#71D672",
+  "yellow": "#FFD24A",
+  "brightYellow": "#FCD76B",
+  "blue": "#5891BC",
+  "brightBlue": "#76A3C6",
+  "purple": "#B772D0",
+  "brightPurple": "#C28BD6",
+  "cyan": "#21A2B0",
+  "brightCyan": "#4AB1BC",
+  "white": "#D3D2D3",
+  "brightWhite": "#EEEDED"
+}

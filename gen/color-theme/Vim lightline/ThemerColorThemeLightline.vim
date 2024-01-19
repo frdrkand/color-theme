@@ -1,0 +1,53 @@
+if &background == 'dark'
+  let s:guishade0 = "#313238"
+  let s:guishade1 = "#4C4D52"
+  let s:guishade2 = "#67676C"
+  let s:guishade3 = "#828286"
+  let s:guishade4 = "#9D9D9F"
+  let s:guishade5 = "#B8B8B9"
+  let s:guishade6 = "#D3D2D3"
+  let s:guishade7 = "#EEEDED"
+  let s:guiaccent0 = "#D3290F"
+  let s:guiaccent1 = "#E6770B"
+  let s:guiaccent2 = "#FFD24A"
+  let s:guiaccent3 = "#52D053"
+  let s:guiaccent4 = "#21A2B0"
+  let s:guiaccent5 = "#5891BC"
+  let s:guiaccent6 = "#B772D0"
+  let s:guiaccent7 = "#D30F43"
+  let s:shade0 = 59
+  let s:shade1 = 66
+  let s:shade2 = 102
+  let s:shade3 = 145
+  let s:shade4 = 145
+  let s:shade5 = 188
+  let s:shade6 = 188
+  let s:shade7 = 231
+  let s:accent0 = 166
+  let s:accent1 = 208
+  let s:accent2 = 221
+  let s:accent3 = 114
+  let s:accent4 = 73
+  let s:accent5 = 110
+  let s:accent6 = 176
+  let s:accent7 = 161
+endif
+
+let s:p = {'normal': {}, 'inactive': {}, 'insert': {}, 'replace': {}, 'visual': {}, 'tabline': {}}
+let s:p.normal.left = [ [ s:guishade1, s:guiaccent5, s:shade1, s:accent5 ], [ s:guishade7, s:guishade2, s:shade7, s:shade2 ] ]
+let s:p.normal.right = [ [ s:guishade1, s:guishade4, s:shade1, s:shade4 ], [ s:guishade5, s:guishade2, s:shade5, s:shade2 ] ]
+let s:p.inactive.right = [ [ s:guishade1, s:guishade3, s:shade1, s:shade3 ], [ s:guishade3, s:guishade1, s:shade3, s:shade1 ] ]
+let s:p.inactive.left =  [ [ s:guishade4, s:guishade1, s:shade4, s:shade1 ], [ s:guishade3, s:guishade0, s:shade3, s:shade0 ] ]
+let s:p.insert.left = [ [ s:guishade1, s:guiaccent3, s:shade1, s:accent3 ], [ s:guishade7, s:guishade2, s:shade7, s:shade2 ] ]
+let s:p.replace.left = [ [ s:guishade1, s:guiaccent1, s:shade1, s:accent1 ], [ s:guishade7, s:guishade2, s:shade7, s:shade2 ] ]
+let s:p.visual.left = [ [ s:guishade1, s:guiaccent6, s:shade1, s:accent6 ], [ s:guishade7, s:guishade2, s:shade7, s:shade2 ] ]
+let s:p.normal.middle = [ [ s:guishade5, s:guishade1, s:shade5, s:shade1 ] ]
+let s:p.inactive.middle = [ [ s:guishade4, s:guishade1, s:shade4, s:shade1 ] ]
+let s:p.tabline.left = [ [ s:guishade6, s:guishade2, s:shade6, s:shade2 ] ]
+let s:p.tabline.tabsel = [ [ s:guishade6, s:guishade0, s:shade6, s:shade0 ] ]
+let s:p.tabline.middle = [ [ s:guishade2, s:guishade4, s:shade2, s:shade4 ] ]
+let s:p.tabline.right = copy(s:p.normal.right)
+let s:p.normal.error = [ [ s:guiaccent0, s:guishade0, s:accent0, s:shade0 ] ]
+let s:p.normal.warning = [ [ s:guiaccent2, s:guishade1, s:accent2, s:shade1 ] ]
+
+let g:lightline#colorscheme#ThemerColorTheme#palette = s:p

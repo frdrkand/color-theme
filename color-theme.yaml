@@ -1,0 +1,18 @@
+scheme: 'color-theme'
+author: 'frdrkand'
+base00: '313238' # shade0
+base01: '4C4D52' # shade1
+base02: '67676C' # shade2
+base03: '828286' # shade3
+base04: '9D9D9F' # shade4
+base05: 'B8B8B9' # shade5
+base06: 'D3D2D3' # shade6
+base07: 'EEEDED' # shade7
+base08: 'D3290F' # accent0
+base09: 'E6770B' # accent1
+base0A: 'FFD24A' # accent2
+base0B: '52D053' # accent3
+base0C: '21A2B0' # accent4
+base0D: '5891BC' # accent5
+base0E: 'B772D0' # accent6
+base0F: 'D30F43' # accent7
